@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicRestAssured.CRUDProjectToken" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-11T02:26:35" hostname="LAPTOP-LOLO58O1" time="8.786">
+  <properties/>
+  <testcase name="verifyCRUDProjectToken()" classname="basicRestAssured.CRUDProjectToken" time="8.786"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic amJhcGlAamJhcGkuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=ccmptb15afrhfwhe2a0xix2o; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:35 GMT
+Content-Length: 123
+
+{
+    "TokenString": "50403cacf1f14171b9808900959cc5a0",
+    "UserEmail": "jbapi@jbapi.com",
+    "ExpirationTime": "/Date(1660202795613)/"
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Token=50403cacf1f14171b9808900959cc5a0
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"crudProject","Icon":9}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=zakae55soldiwlelh1mebj2f; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:37 GMT
+Content-Length: 401
+
+{
+    "Id": 4018590,
+    "Content": "crudProject",
+    "ItemsCount": 0,
+    "Icon": 9,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 283,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184797328)/",
+    "LastUpdatedDate": "/Date(1660184797313)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/projects/4018590.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Token=50403cacf1f14171b9808900959cc5a0
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"update","Icon":7}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=ebbqsygfpqzebogujxbwqha5; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:38 GMT
+Content-Length: 396
+
+{
+    "Id": 4018590,
+    "Content": "update",
+    "ItemsCount": 0,
+    "Icon": 7,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 283,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184798872)/",
+    "LastUpdatedDate": "/Date(1660184798857)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/projects/4018590.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Token=50403cacf1f14171b9808900959cc5a0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=bcp1ryrcvqo21bpqjvg1yj2k; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:39 GMT
+Content-Length: 396
+
+{
+    "Id": 4018590,
+    "Content": "update",
+    "ItemsCount": 0,
+    "Icon": 7,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 283,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184800822)/",
+    "LastUpdatedDate": "/Date(1660184798857)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/projects/4018590.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Token=50403cacf1f14171b9808900959cc5a0
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=54j2ib4v4cuu1ti0x4r2bv4u; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:42 GMT
+Content-Length: 395
+
+{
+    "Id": 4018590,
+    "Content": "update",
+    "ItemsCount": 0,
+    "Icon": 7,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 283,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184802522)/",
+    "LastUpdatedDate": "/Date(1660184802507)/",
+    "Deleted": true,
+    "SyncClientCreationId": null
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

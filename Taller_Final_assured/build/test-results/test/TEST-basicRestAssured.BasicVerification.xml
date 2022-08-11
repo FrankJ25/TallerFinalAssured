@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicRestAssured.BasicVerification" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-11T02:26:24" hostname="LAPTOP-LOLO58O1" time="4.273">
+  <properties/>
+  <testcase name="verifyCreateProjectExtractValue()" classname="basicRestAssured.BasicVerification" time="2.413"/>
+  <testcase name="verifyCreateProjectWithVerification()" classname="basicRestAssured.BasicVerification" time="1.86"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic amJhcGlAamJhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"JsonObject","Icon":8}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=f0i1rgqvn5xeqiaxldten10o; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:24 GMT
+Content-Length: 400
+
+{
+    "Id": 4018587,
+    "Content": "JsonObject",
+    "ItemsCount": 0,
+    "Icon": 8,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 280,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184784318)/",
+    "LastUpdatedDate": "/Date(1660184784287)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+INFO > nombre de project extraido: [ JsonObject ]
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic amJhcGlAamJhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"JsonObject","Icon":8}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nutnxzfxtqg1g1e0as0i2j5p; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:26 GMT
+Content-Length: 400
+
+{
+    "Id": 4018588,
+    "Content": "JsonObject",
+    "ItemsCount": 0,
+    "Icon": 8,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 281,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184786829)/",
+    "LastUpdatedDate": "/Date(1660184786813)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

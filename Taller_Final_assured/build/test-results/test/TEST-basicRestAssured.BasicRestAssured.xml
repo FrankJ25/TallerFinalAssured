@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicRestAssured.BasicRestAssured" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-11T02:26:16" hostname="LAPTOP-LOLO58O1" time="7.599">
+  <properties/>
+  <testcase name="verifyCreateProject()" classname="basicRestAssured.BasicRestAssured" time="4.449"/>
+  <testcase name="verifyCreateProjectWithJSONObject()" classname="basicRestAssured.BasicRestAssured" time="1.425"/>
+  <testcase name="verifyCreateProjectWithExternalFile()" classname="basicRestAssured.BasicRestAssured" time="1.724"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic amJhcGlAamJhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+  "Content":"RESTAssured",
+  "Icon" : 7
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=szhf41tmp11hwjdjcxhqmkcb; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:19 GMT
+Content-Length: 401
+
+{
+    "Id": 4018584,
+    "Content": "RESTAssured",
+    "ItemsCount": 0,
+    "Icon": 7,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 277,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184779404)/",
+    "LastUpdatedDate": "/Date(1660184779390)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic amJhcGlAamJhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"JsonObject","Icon":8}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=r0qjppkbtrsuwrv5qvdoapfy; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:20 GMT
+Content-Length: 400
+
+{
+    "Id": 4018585,
+    "Content": "JsonObject",
+    "ItemsCount": 0,
+    "Icon": 8,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 278,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184780948)/",
+    "LastUpdatedDate": "/Date(1660184780933)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic amJhcGlAamJhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+C:\Users\ingen\Desktop\NOVAGRO\Nueva carpeta (2)\restassured\src\test\resources\bodyCreateProject.json
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=uinpnzo3f5uzxbinoelqqmbo; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 11 Aug 2022 02:26:22 GMT
+Content-Length: 402
+
+{
+    "Id": 4018586,
+    "Content": "externalFile",
+    "ItemsCount": 0,
+    "Icon": 8,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 279,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1660184782617)/",
+    "LastUpdatedDate": "/Date(1660184782603)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

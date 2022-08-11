@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicJunit.BasicJunit" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-11T02:26:16" hostname="LAPTOP-LOLO58O1" time="0.023">
+  <properties/>
+  <testcase name="verifySomeThing()" classname="basicJunit.BasicJunit" time="0.02"/>
+  <testcase name="verifySomeThing1()" classname="basicJunit.BasicJunit" time="0.002"/>
+  <system-out><![CDATA[setup
+este mi test
+cleanup
+setup
+este mi test
+cleanup
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
